@@ -4,7 +4,7 @@ import '../providers/bloc_event_state.dart';
 
 typedef Widget AsyncBlocStateBuilder<BlocState>(BuildContext context, BlocState state);
 
-class BlocEventStateBuilder extends StatelessWidget {
+class BlocEventStateBuilder<BlocState> extends StatelessWidget {
 
   final BlocEventStateBase<BlocEvent, BlocState> bloc;
   final AsyncBlocStateBuilder<BlocState> builder;
