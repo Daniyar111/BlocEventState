@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'data/blocs/authentication/authentication_bloc.dart';
 import 'data/blocs/shopping_bloc/shopping_bloc.dart';
 import 'data/providers/bloc_provider.dart';
+import 'pages/decision_page.dart';
 import 'pages/initialization_page.dart';
 
 class App extends StatelessWidget {
