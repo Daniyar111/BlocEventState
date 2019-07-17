@@ -1,6 +1,8 @@
 import 'package:authentication_bloc/src/data/blocs/authentication/authentication_bloc.dart';
 import 'package:authentication_bloc/src/data/blocs/authentication/authentication_state.dart';
 import 'package:authentication_bloc/src/data/providers/bloc_state_transform_base.dart';
+import 'package:authentication_bloc/src/pages/authentication_page.dart';
+import 'package:authentication_bloc/src/pages/home_page.dart';
 
 import 'decistion_state_action.dart';
 

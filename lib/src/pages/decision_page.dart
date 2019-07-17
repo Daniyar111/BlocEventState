@@ -4,6 +4,9 @@ import 'package:authentication_bloc/src/data/blocs/authentication/authentication
 import 'package:authentication_bloc/src/data/providers/bloc_provider.dart';
 import 'package:flutter/material.dart';
 
+import 'authentication_page.dart';
+import 'home_page.dart';
+
 class DecisionPage extends StatefulWidget {
 
   @override
