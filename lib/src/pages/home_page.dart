@@ -1,4 +1,9 @@
+import 'package:authentication_bloc/src/widgets/log_out_button.dart';
+import 'package:authentication_bloc/src/widgets/shopping_basket.dart';
+import 'package:authentication_bloc/src/widgets/shopping_basket_price.dart';
 import 'package:flutter/material.dart';
+
+import 'shopping_page.dart';
 
 class HomePage extends StatelessWidget {
 
