@@ -2,6 +2,7 @@ import 'package:authentication_bloc/src/data/blocs/shopping_bloc/shopping_bloc.d
 import 'package:authentication_bloc/src/data/providers/bloc_provider.dart';
 import 'package:authentication_bloc/src/models/shopping_item.dart';
 import 'package:authentication_bloc/src/widgets/shopping_basket.dart';
+import 'package:authentication_bloc/src/widgets/shopping_item_widget.dart';
 import 'package:flutter/material.dart';
 
 class ShoppingPage extends StatelessWidget {
