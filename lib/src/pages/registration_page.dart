@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'registration_form.dart';
+
 class RegistrationPage extends StatelessWidget {
 
   @override

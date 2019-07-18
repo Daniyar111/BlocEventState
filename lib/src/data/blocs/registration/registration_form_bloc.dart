@@ -5,7 +5,7 @@ import 'package:rxdart/rxdart.dart';
 
 class RegistrationFormBloc extends Object with EmailValidator, PasswordValidator implements BlocBase {
 
-  final BehaviorSubject<String> _emailController = BehaviorSubject<String>();
+    final BehaviorSubject<String> _emailController = BehaviorSubject<String>();
   final BehaviorSubject<String> _passwordController = BehaviorSubject<String>();
   final BehaviorSubject<String> _passwordConfirmController = BehaviorSubject<String>();
 
