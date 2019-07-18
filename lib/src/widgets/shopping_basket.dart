@@ -1,5 +1,6 @@
 import 'package:authentication_bloc/src/data/blocs/shopping_bloc/shopping_bloc.dart';
 import 'package:authentication_bloc/src/data/providers/bloc_provider.dart';
+import 'package:authentication_bloc/src/pages/shopping_basket_page.dart';
 import 'package:flutter/material.dart';
 
 class ShoppingBasket extends StatelessWidget {
