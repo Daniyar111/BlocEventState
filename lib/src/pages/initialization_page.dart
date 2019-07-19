@@ -32,6 +32,7 @@ class _InitializationPageState extends State<InitializationPage> {
               bloc: bloc,
               builder: (BuildContext context, InitializationState state){
                 if(state.isInitialized){
+                  print('initialized');
 
                   // Once the initialization is completed, let's move to another page
                   WidgetsBinding.instance.addPostFrameCallback((_){

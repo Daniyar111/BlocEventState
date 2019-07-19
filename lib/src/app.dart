@@ -4,6 +4,7 @@ import 'data/blocs/authentication/authentication_bloc.dart';
 import 'data/blocs/shopping_bloc/shopping_bloc.dart';
 import 'data/providers/bloc_provider.dart';
 import 'pages/decision_page.dart';
+import 'pages/decision_page_no_business.dart';
 import 'pages/initialization_page.dart';
 import 'pages/registration_page.dart';
 import 'pages/shopping_basket_page.dart';
@@ -23,7 +24,7 @@ class App extends StatelessWidget {
             primarySwatch: Colors.blue,
           ),
           routes: {
-            '/decision': (BuildContext context) => DecisionPage(),
+            '/decision': (BuildContext context) => DecisionPageNoBusiness(),
             '/register': (BuildContext context) => RegistrationPage(),
             '/shoppingBasket': (BuildContext context) => ShoppingBasketPage()
           },
