@@ -18,6 +18,6 @@ class GlobalBloc{
 
   // Resource disposal
   void dispose(){
-    _controller.close();
+    _controller?.close();
   }
 }

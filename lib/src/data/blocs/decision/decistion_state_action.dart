@@ -18,13 +18,13 @@ class DecisionStateAction extends BlocState{
     );
   }
 
-  factory DecisionStateAction.nothing(){
+  factory DecisionStateAction.doNothing(){
     return DecisionStateAction();
   }
 
   @override
   bool operator ==(other) {
-    return identical(this, other) || other is DecisionStateAction && actionType == other.actionType || newPage == other.newPage;
+    return identical(this, other) || other is DecisionStateAction && actionType == other.actionType && newPage == other.newPage;
   }
 
   @override

@@ -4,11 +4,11 @@ import 'package:rxdart/rxdart.dart';
 import 'bloc_provider.dart';
 
 
-abstract class BlocEvent{
+abstract class BlocEvent extends Object{
 
 }
 
-abstract class BlocState{
+abstract class BlocState extends Object{
 
 }
 

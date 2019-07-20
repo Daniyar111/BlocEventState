@@ -36,7 +36,7 @@ class DecisionStateTransform extends BlocStateTransformBase<DecisionStateAction,
   @override
   Stream<DecisionStateAction> stateHandler({DecisionStateAction currentState, AuthenticationState newState}) async* {
 
-    DecisionStateAction action = DecisionStateAction.nothing();
+    DecisionStateAction action = DecisionStateAction.doNothing();
 
     if(newState.isAuthenticated){
       action = DecisionStateAction.routeToPage(HomePage());

@@ -55,8 +55,7 @@ class _BlocProviderInherited<T> extends InheritedWidget {
     Key key,
     @required Widget child,
     @required this.bloc
-  }) : assert(child != null),
-        super(key: key, child: child);
+  }) : super(key: key, child: child);
 
   @override
   bool updateShouldNotify(_BlocProviderInherited old) {

@@ -21,7 +21,7 @@ class InitializationState extends BlocState{
 
   factory InitializationState.progressing(int progress){
     return InitializationState(
-      isInitialized: false,
+      isInitialized: progress == 100,
       isInitializing: true,
       progress: progress
     );
