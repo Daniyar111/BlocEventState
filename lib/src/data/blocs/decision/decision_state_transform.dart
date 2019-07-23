@@ -7,7 +7,6 @@ import 'package:authentication_bloc/src/pages/home_page.dart';
 import 'decistion_state_action.dart';
 
 /// Business logic related to the DecisionPage based on the AuthenticationState
-///
 
 class DecisionStateTransform extends BlocStateTransformBase<DecisionStateAction, AuthenticationState>{
 
@@ -33,6 +32,7 @@ class DecisionStateTransform extends BlocStateTransformBase<DecisionStateAction,
 
 
   // Business Logic
+
   @override
   Stream<DecisionStateAction> stateHandler({DecisionStateAction currentState, AuthenticationState newState}) async* {
 
