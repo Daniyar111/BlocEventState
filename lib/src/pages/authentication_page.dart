@@ -70,8 +70,7 @@ class AuthenticationPage extends StatelessWidget {
                     title: RaisedButton(
                       child: Text('Register'),
                       onPressed: () {
-                        Navigator.of(context)
-                            .pushNamed('/register');
+                        Navigator.of(context).pushNamed('/register');
                       },
                     ),
                   ),
@@ -79,9 +78,7 @@ class AuthenticationPage extends StatelessWidget {
 
                 // Display a text if the authentication failed
                 if (state.hasFailed){
-                  children.add(
-                    Text('Authentication failure!'),
-                  );
+                  children.add(Text('Authentication failure!'),);
                 }
 
                 return Column(
